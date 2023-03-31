@@ -1,0 +1,88 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html{
+  height: 100%;
+}
+
+body{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #B91C1C 0%, rgba(6, 105, 253, 0.997) 100%);
+  background-size: cover;
+  font-family: 'Segoe UI';
+}/*body*/
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:2em;
+  font-size: 2.5em;
+}
+
+#Temperatura input {
+  width: 100%;
+  max-width: 16em;
+  padding: 0.5em;
+  font-size: 1.2em;
+}
+
+#tempFinal{
+  padding-left: 1.8em;
+}
+
+label, select {
+  font-size: 1.3em;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10.41vw;
+    padding-left: 6.25vw;
+    padding-bottom: 3.125vw;
+    height: 26.04vw; 
+    width: 41.66vw;
+    left: 28.74vw;
+    background: rgba(240, 240, 240, 0.47);
+    border-radius: 1.82vw;
+  }
+  
+  form {
+    max-width: 26.04vw;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  button {
+    position: absolute;
+    width: 18.88vw;
+    height: 5.79vw;
+    left: 11.46vw;
+    top: 18.88vw;
+    background: linear-gradient(180deg, #BA1CE2 0%, rgba(31, 1, 38, 0) 100%), #48005A;
+    border-radius: 17px;
+    border:none;
+     /*fonte*/
+      padding-left: 4.23vw;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.90vw;
+      line-height: 2.95vw;
+      display: flex;
+      align-items: center;
+      text-align: center;
+  }/*button*/
+
+  p {
+    font-size: 1.25vw;
+    margin-top: 0.65vw;
+  }
+
+ 
